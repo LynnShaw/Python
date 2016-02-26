@@ -1,12 +1,11 @@
-#Python程序实现登陆校园网
+#Python爬虫下载
 
-###深澜系统
-首先用wireshark抓取登入登出时的数据包如下:
 
-登入：
-![](https://raw.githubusercontent.com/LynnShaw/Python/master/campus_network_login/login.jpg)
+首先用fiddler抓取same的数据包如下:
 
-登出：
-![](https://raw.githubusercontent.com/LynnShaw/Python/master/campus_network_login/logout.jpg)
+![](https://raw.githubusercontent.com/LynnShaw/Python/master/same/fiddler.jpg)
 
-用request库提交表单
+得到URL，返回的是json数据：
+![](https://raw.githubusercontent.com/LynnShaw/Python/master/same/json.jpg)
+
+正则匹配，得到图片URL，下载并保存图片
