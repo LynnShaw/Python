@@ -1,4 +1,4 @@
-#Python爬虫下载
+#Python爬虫下载same APP频道图片
 
 
 首先用fiddler抓取same的数据包如下:
