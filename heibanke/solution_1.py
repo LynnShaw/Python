@@ -28,4 +28,5 @@ while len(num):
     link = link[0].encode('gbk')
     print link
     num=re.findall(r'\d{2,}',link)
-    new_url=root_url+'/'+num[0]
+    if len(num):
+        new_url=root_url+'/'+num[0]
